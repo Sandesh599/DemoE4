@@ -14,4 +14,8 @@ public class A extends TestBase {
 		
 	}
 
+	@Test
+	public void m2(){
+		System.out.println(driver.getCurrentUrl());
+	}
 }
