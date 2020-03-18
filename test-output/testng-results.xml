@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="3" total="9" passed="5">
+<testng-results skipped="0" failed="1" ignored="6" total="13" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="252324" started-at="2020-03-17T16:29:14Z" finished-at="2020-03-17T16:33:26Z">
+  <suite name="Suite" duration-ms="314023" started-at="2020-03-18T09:51:08Z" finished-at="2020-03-18T09:56:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="252324" started-at="2020-03-17T16:29:14Z" finished-at="2020-03-17T16:33:26Z">
+    <test name="Test" duration-ms="314023" started-at="2020-03-18T09:51:08Z" finished-at="2020-03-18T09:56:22Z">
       <class name="com.jbk.Eproc.TestCases.RegistrationPageTest">
-        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="openBrowser" is-config="true" duration-ms="19712" started-at="2020-03-17T16:31:45Z" finished-at="2020-03-17T16:32:05Z">
+        <test-method status="PASS" signature="parentSetup()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="parentSetup" is-config="true" duration-ms="2" started-at="2020-03-18T09:55:17Z" finished-at="2020-03-18T09:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentSetup -->
+        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="openBrowser" is-config="true" duration-ms="16072" started-at="2020-03-18T09:55:17Z" finished-at="2020-03-18T09:55:33Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="parentSetup()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="parentSetup" is-config="true" duration-ms="0" started-at="2020-03-17T16:31:45Z" finished-at="2020-03-17T16:31:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parentSetup -->
-        <test-method status="PASS" signature="checkRegistrationPageHeaderTest()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="checkRegistrationPageHeaderTest" duration-ms="34471" started-at="2020-03-17T16:32:05Z" finished-at="2020-03-17T16:32:39Z">
+        <test-method status="PASS" signature="checkRegistrationPageHeaderTest()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="checkRegistrationPageHeaderTest" duration-ms="2355" started-at="2020-03-18T09:55:33Z" finished-at="2020-03-18T09:55:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRegistrationPageHeaderTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="closeBrowser" is-config="true" duration-ms="5185" started-at="2020-03-17T16:32:39Z" finished-at="2020-03-17T16:32:44Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="closeBrowser" is-config="true" duration-ms="815" started-at="2020-03-18T09:55:35Z" finished-at="2020-03-18T09:55:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="openBrowser" is-config="true" duration-ms="17129" started-at="2020-03-17T16:32:44Z" finished-at="2020-03-17T16:33:01Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="openBrowser" is-config="true" duration-ms="18190" started-at="2020-03-18T09:55:36Z" finished-at="2020-03-18T09:55:54Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="checkRegistrationPageTitleTest()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="checkRegistrationPageTitleTest" duration-ms="7572" started-at="2020-03-17T16:33:01Z" finished-at="2020-03-17T16:33:09Z">
+        <test-method status="PASS" signature="checkRegistrationPageTitleTest()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="checkRegistrationPageTitleTest" duration-ms="2440" started-at="2020-03-18T09:55:54Z" finished-at="2020-03-18T09:55:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRegistrationPageTitleTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="closeBrowser" is-config="true" duration-ms="1868" started-at="2020-03-17T16:33:09Z" finished-at="2020-03-17T16:33:11Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="closeBrowser" is-config="true" duration-ms="5579" started-at="2020-03-18T09:55:56Z" finished-at="2020-03-18T09:56:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="openBrowser" is-config="true" duration-ms="12504" started-at="2020-03-17T16:33:11Z" finished-at="2020-03-17T16:33:23Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="openBrowser" is-config="true" duration-ms="15884" started-at="2020-03-18T09:56:02Z" finished-at="2020-03-18T09:56:18Z">
           <params>
             <param index="0">
               <value>
@@ -60,29 +60,58 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="registerPageTest()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="registerPageTest" duration-ms="1545" started-at="2020-03-17T16:33:23Z" finished-at="2020-03-17T16:33:25Z">
+        <test-method status="PASS" signature="registerPageTest()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="registerPageTest" duration-ms="2967" started-at="2020-03-18T09:56:18Z" finished-at="2020-03-18T09:56:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerPageTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@42eca56e]" name="closeBrowser" is-config="true" duration-ms="967" started-at="2020-03-17T16:33:25Z" finished-at="2020-03-17T16:33:26Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.RegistrationPageTest@7cbd213e]" name="closeBrowser" is-config="true" duration-ms="1530" started-at="2020-03-18T09:56:21Z" finished-at="2020-03-18T09:56:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.jbk.Eproc.TestCases.RegistrationPageTest -->
-      <class name="com.jbk.Eproc.TestCases.LoginPageTest">
-        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="loadProperties" is-config="true" duration-ms="308" started-at="2020-03-17T16:29:13Z" finished-at="2020-03-17T16:29:13Z">
+      <class name="com.jbk.Eproc.TestCases.A">
+        <test-method status="PASS" signature="loadProperties()[pri:0, instance:com.jbk.Eproc.TestCases.A@b7dd107]" name="loadProperties" is-config="true" duration-ms="563" started-at="2020-03-18T09:51:07Z" finished-at="2020-03-18T09:51:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadProperties -->
-        <test-method status="PASS" signature="initialiseExtentReport()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="initialiseExtentReport" is-config="true" duration-ms="734" started-at="2020-03-17T16:29:13Z" depends-on-methods="com.jbk.Eproc.Base.Base.loadProperties" finished-at="2020-03-17T16:29:14Z">
+        <test-method status="PASS" signature="initialiseExtentReport()[pri:0, instance:com.jbk.Eproc.TestCases.A@b7dd107]" name="initialiseExtentReport" is-config="true" duration-ms="517" started-at="2020-03-18T09:51:08Z" depends-on-methods="com.jbk.Eproc.Base.Base.loadProperties" finished-at="2020-03-18T09:51:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseExtentReport -->
-        <test-method status="PASS" signature="parentSetup()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="parentSetup" is-config="true" duration-ms="16" started-at="2020-03-17T16:29:14Z" finished-at="2020-03-17T16:29:14Z">
+        <test-method status="PASS" signature="parentSetup()[pri:0, instance:com.jbk.Eproc.TestCases.A@b7dd107]" name="parentSetup" is-config="true" duration-ms="8" started-at="2020-03-18T09:51:08Z" finished-at="2020-03-18T09:51:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parentSetup -->
-        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="openBrowser" is-config="true" duration-ms="20344" started-at="2020-03-17T16:29:14Z" finished-at="2020-03-17T16:29:34Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.A@b7dd107]" name="openBrowser" is-config="true" duration-ms="22203" started-at="2020-03-18T09:51:08Z" finished-at="2020-03-18T09:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jbk.Eproc.TestCases.A.m1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="m1()[pri:0, instance:com.jbk.Eproc.TestCases.A@b7dd107]" name="m1" duration-ms="28" started-at="2020-03-18T09:51:31Z" finished-at="2020-03-18T09:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.A@b7dd107]" name="closeBrowser" is-config="true" duration-ms="1159" started-at="2020-03-18T09:51:31Z" finished-at="2020-03-18T09:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.jbk.Eproc.TestCases.A@b7dd107]" name="endReport" is-config="true" duration-ms="4742" started-at="2020-03-18T09:56:27Z" finished-at="2020-03-18T09:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.jbk.Eproc.TestCases.A -->
+      <class name="com.jbk.Eproc.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="parentSetup()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="parentSetup" is-config="true" duration-ms="0" started-at="2020-03-18T09:51:32Z" finished-at="2020-03-18T09:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentSetup -->
+        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="openBrowser" is-config="true" duration-ms="16048" started-at="2020-03-18T09:51:32Z" finished-at="2020-03-18T09:51:48Z">
           <params>
             <param index="0">
               <value>
@@ -93,15 +122,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="loginPageLogoTest()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="loginPageLogoTest" duration-ms="2847" started-at="2020-03-17T16:29:34Z" finished-at="2020-03-17T16:29:37Z">
+        <test-method status="PASS" signature="loginPageLogoTest()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="loginPageLogoTest" duration-ms="10725" started-at="2020-03-18T09:51:48Z" finished-at="2020-03-18T09:51:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageLogoTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="closeBrowser" is-config="true" duration-ms="2170" started-at="2020-03-17T16:29:37Z" finished-at="2020-03-17T16:29:39Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="closeBrowser" is-config="true" duration-ms="924" started-at="2020-03-18T09:51:59Z" finished-at="2020-03-18T09:51:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="openBrowser" is-config="true" duration-ms="14026" started-at="2020-03-17T16:29:39Z" finished-at="2020-03-17T16:29:53Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="openBrowser" is-config="true" duration-ms="16947" started-at="2020-03-18T09:51:59Z" finished-at="2020-03-18T09:52:16Z">
           <params>
             <param index="0">
               <value>
@@ -112,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="loginPageTitleTest()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="loginPageTitleTest" duration-ms="6672" started-at="2020-03-17T16:29:53Z" finished-at="2020-03-17T16:30:00Z">
+        <test-method status="FAIL" signature="loginPageTitleTest()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="loginPageTitleTest" duration-ms="36187" started-at="2020-03-18T09:52:16Z" finished-at="2020-03-18T09:52:53Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -155,11 +184,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="closeBrowser" is-config="true" duration-ms="2049" started-at="2020-03-17T16:30:00Z" finished-at="2020-03-17T16:30:02Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="closeBrowser" is-config="true" duration-ms="10370" started-at="2020-03-18T09:52:53Z" finished-at="2020-03-18T09:53:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="openBrowser" is-config="true" duration-ms="29828" started-at="2020-03-17T16:30:02Z" finished-at="2020-03-17T16:30:32Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.reflect.Method)[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="openBrowser" is-config="true" duration-ms="37908" started-at="2020-03-18T09:53:03Z" finished-at="2020-03-18T09:53:41Z">
           <params>
             <param index="0">
               <value>
@@ -170,18 +199,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="loginTest" duration-ms="70448" started-at="2020-03-17T16:30:32Z" finished-at="2020-03-17T16:31:42Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="loginTest" duration-ms="90466" started-at="2020-03-18T09:53:41Z" finished-at="2020-03-18T09:55:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="closeBrowser" is-config="true" duration-ms="2877" started-at="2020-03-17T16:31:42Z" finished-at="2020-03-17T16:31:45Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@52f759d7]" name="closeBrowser" is-config="true" duration-ms="4994" started-at="2020-03-18T09:55:12Z" finished-at="2020-03-18T09:55:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.jbk.Eproc.TestCases.LoginPageTest@6950e31]" name="endReport" is-config="true" duration-ms="2026" started-at="2020-03-17T16:33:27Z" finished-at="2020-03-17T16:33:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
       </class> <!-- com.jbk.Eproc.TestCases.LoginPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

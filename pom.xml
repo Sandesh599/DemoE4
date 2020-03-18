@@ -17,8 +17,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.jbk</groupId>
-			<artifactId>corejbkE4</artifactId>
-			<version>0.0.2</version>
+			<artifactId>core</artifactId>
+			<version>0.0.1</version>
 		</dependency>
 
 		<dependency>

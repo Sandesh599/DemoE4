@@ -2,9 +2,9 @@ package com.jbk.Eproc.Pages;
 
 import org.openqa.selenium.WebDriver;
 
+import com.alsis.Util.ExtentLogsReport;
 import com.aventstack.extentreports.ExtentTest;
 import com.jbk.Eproc.PagesOR.RegistrationPageOR;
-import com.jbk.Eproc.Util.ExtentLogsReport;
 
 public class RegistrationPage extends RegistrationPageOR {
 	

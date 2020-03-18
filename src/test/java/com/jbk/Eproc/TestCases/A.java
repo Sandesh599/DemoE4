@@ -1,8 +1,9 @@
 package com.jbk.Eproc.TestCases;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
-import com.jbk.Eproc.TestBase.TestBase;
+import com.alsis.TestBase.TestBase;
 
 public class A extends TestBase {
 	@Test

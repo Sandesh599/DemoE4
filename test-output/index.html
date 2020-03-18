@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -132,6 +132,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk.Eproc.TestCases.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk.Eproc.TestCases.A" hash-for-method="m1">m1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -221,6 +226,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbk.Eproc.TestCases.A</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="m1">
+                  </a> <!-- m1 -->
+                  <span class="method-name">m1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -233,6 +253,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.jbk.Eproc.TestCases.A&quot;/&gt;
       &lt;class name=&quot;com.jbk.Eproc.TestCases.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;com.jbk.Eproc.TestCases.RegistrationPageTest&quot;/&gt;
     &lt;/classes&gt;
@@ -248,7 +269,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -274,31 +295,35 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.jbk.Eproc.TestCases.LoginPageTest')
-data.setCell(0, 3, 70448);
+data.setCell(0, 3, 90466);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkRegistrationPageHeaderTest')
-data.setCell(1, 2, 'com.jbk.Eproc.TestCases.RegistrationPageTest')
-data.setCell(1, 3, 34471);
+data.setCell(1, 1, 'loginPageTitleTest')
+data.setCell(1, 2, 'com.jbk.Eproc.TestCases.LoginPageTest')
+data.setCell(1, 3, 36187);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkRegistrationPageTitleTest')
-data.setCell(2, 2, 'com.jbk.Eproc.TestCases.RegistrationPageTest')
-data.setCell(2, 3, 7572);
+data.setCell(2, 1, 'loginPageLogoTest')
+data.setCell(2, 2, 'com.jbk.Eproc.TestCases.LoginPageTest')
+data.setCell(2, 3, 10725);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginPageTitleTest')
-data.setCell(3, 2, 'com.jbk.Eproc.TestCases.LoginPageTest')
-data.setCell(3, 3, 6672);
+data.setCell(3, 1, 'registerPageTest')
+data.setCell(3, 2, 'com.jbk.Eproc.TestCases.RegistrationPageTest')
+data.setCell(3, 3, 2967);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginPageLogoTest')
-data.setCell(4, 2, 'com.jbk.Eproc.TestCases.LoginPageTest')
-data.setCell(4, 3, 2847);
+data.setCell(4, 1, 'checkRegistrationPageTitleTest')
+data.setCell(4, 2, 'com.jbk.Eproc.TestCases.RegistrationPageTest')
+data.setCell(4, 3, 2440);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'registerPageTest')
+data.setCell(5, 1, 'checkRegistrationPageHeaderTest')
 data.setCell(5, 2, 'com.jbk.Eproc.TestCases.RegistrationPageTest')
-data.setCell(5, 3, 1545);
+data.setCell(5, 3, 2355);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'm1')
+data.setCell(6, 2, 'com.jbk.Eproc.TestCases.A')
+data.setCell(6, 3, 28);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -318,11 +343,22 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.jbk.Eproc.TestCases.RegistrationPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialiseExtentReport</span>
+                <br/>
+                <span class="ignored-method-name">loadProperties</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jbk.Eproc.TestCases.LoginPageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">initialiseExtentReport</span>
                 <br/>
@@ -340,106 +376,125 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.jbk.Eproc.TestCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.jbk.Eproc.TestCases.A</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">loadProperties</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-suite before">
                 <span class="method-name">initialiseExtentReport</span>
-                <span class="method-start">308 ms</span>
+                <span class="method-start">563 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">parentSetup</span>
-                <span class="method-start">1089 ms</span>
+                <span class="method-start">1102 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">openBrowser(public void com.jbk.Eproc.TestCases.LoginPageTest.loginPageLogoTest())</span>
-                <span class="method-start">1120 ms</span>
+                <span class="method-name">openBrowser(public void com.jbk.Eproc.TestCases.A.m1())</span>
+                <span class="method-start">1140 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginPageLogoTest</span>
-                <span class="method-start">21464 ms</span>
+                <span class="method-name">m1</span>
+                <span class="method-start">23343 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">24327 ms</span>
+                <span class="method-start">23373 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk.Eproc.TestCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">parentSetup</span>
+                <span class="method-start">24535 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(public void com.jbk.Eproc.TestCases.LoginPageTest.loginPageLogoTest())</span>
+                <span class="method-start">24536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageLogoTest</span>
+                <span class="method-start">40584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">51311 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(public void com.jbk.Eproc.TestCases.LoginPageTest.loginPageTitleTest())</span>
-                <span class="method-start">26497 ms</span>
+                <span class="method-start">52236 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">40523 ms</span>
+                <span class="method-start">69184 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">47195 ms</span>
+                <span class="method-start">105519 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(public void com.jbk.Eproc.TestCases.LoginPageTest.loginTest())</span>
-                <span class="method-start">49244 ms</span>
+                <span class="method-start">115890 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">79072 ms</span>
+                <span class="method-start">153798 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">149520 ms</span>
+                <span class="method-start">244266 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.jbk.Eproc.TestCases.RegistrationPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">parentSetup</span>
-                <span class="method-start">152397 ms</span>
+                <span class="method-start">249260 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(public void com.jbk.Eproc.TestCases.RegistrationPageTest.checkRegistrationPageHeaderTest())</span>
-                <span class="method-start">152397 ms</span>
+                <span class="method-start">249263 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkRegistrationPageHeaderTest</span>
-                <span class="method-start">172109 ms</span>
+                <span class="method-start">265335 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">206581 ms</span>
+                <span class="method-start">267692 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(public void com.jbk.Eproc.TestCases.RegistrationPageTest.checkRegistrationPageTitleTest())</span>
-                <span class="method-start">211766 ms</span>
+                <span class="method-start">268508 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkRegistrationPageTitleTest</span>
-                <span class="method-start">228895 ms</span>
+                <span class="method-start">286698 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">236480 ms</span>
+                <span class="method-start">289141 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(public void com.jbk.Eproc.TestCases.RegistrationPageTest.registerPageTest())</span>
-                <span class="method-start">238348 ms</span>
+                <span class="method-start">294720 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerPageTest</span>
-                <span class="method-start">250852 ms</span>
+                <span class="method-start">310605 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">252399 ms</span>
+                <span class="method-start">313574 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.jbk.Eproc.TestCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.jbk.Eproc.TestCases.A</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">254819 ms</span>
+                <span class="method-start">319633 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import com.alsis.PageBase.PageBase;
 import com.aventstack.extentreports.ExtentTest;
-import com.jbk.Eproc.PageBase.PageBase;
 
 public class LoginPageOR extends PageBase {
 	

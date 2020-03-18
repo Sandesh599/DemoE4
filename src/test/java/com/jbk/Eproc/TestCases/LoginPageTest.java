@@ -1,11 +1,13 @@
 package com.jbk.Eproc.TestCases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.alsis.TestBase.TestBase;
+import com.alsis.Util.ExtentLogsReport;
 import com.jbk.Eproc.Pages.LoginPage;
-import com.jbk.Eproc.TestBase.TestBase;
-import com.jbk.Eproc.Util.ExtentLogsReport;
 
 public class LoginPageTest extends TestBase {
 	
@@ -20,7 +22,7 @@ public class LoginPageTest extends TestBase {
 		ExtentLogsReport.info(test1, "loginPageTitleTest is started");
 		ExtentLogsReport.IExtentResult(test1, loginPage.validateloginpageTitle(), "loginPageTitle Test is passed", "loginPageTitle Test is Filed", "loginPageTitle Test is skipped", driver, "YES", "YES");
 		ExtentLogsReport.info(test1, "loginPageTitleTest is completed");
-		Assert.assertTrue(loginPage.validateloginpageTitle());
+		AssertJUnit.assertTrue(loginPage.validateloginpageTitle());
 	}
 
 	// ImageLogo check
@@ -38,7 +40,7 @@ public class LoginPageTest extends TestBase {
 		ExtentLogsReport.info(test1, "loginPageLogoTest started");
 		ExtentLogsReport.IExtentResult(test1, loginPage.validateloginpageLogo(),"loginPageLogoTest is passed", "loginPageLogoTest is failed", "loginPageLogoTest is skiped", driver, "YES", "YES");
 		ExtentLogsReport.info(test1, "loginPageLogoTest complieted");
-		Assert.assertTrue(loginPage.validateloginpageLogo());
+		AssertJUnit.assertTrue(loginPage.validateloginpageLogo());
 		
 	}
 	

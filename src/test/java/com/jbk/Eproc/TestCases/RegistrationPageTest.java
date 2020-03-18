@@ -1,13 +1,15 @@
 package com.jbk.Eproc.TestCases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.Alert;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.alsis.TestBase.TestBase;
+import com.alsis.Util.ExtentLogsReport;
 import com.jbk.Eproc.Pages.LoginPage;
 import com.jbk.Eproc.Pages.RegistrationPage;
-import com.jbk.Eproc.TestBase.TestBase;
-import com.jbk.Eproc.Util.ExtentLogsReport;
 
 public class RegistrationPageTest extends TestBase {
 	
@@ -26,7 +28,7 @@ public class RegistrationPageTest extends TestBase {
 		ExtentLogsReport.info(test1, "Checking for Tittle");
 		ExtentLogsReport.IExtentResult(test1, registrationPage.validateRegistrationPageTitle(),"checkRegistrationPageTitleTest is passed", "checkRegistrationPageTitleTest is failed", "checkRegistrationPageTitleTest is skiped", driver, "YES", "YES");
 		ExtentLogsReport.info(test1, "RegistrationLogin Page tittle test completed");
-		Assert.assertTrue(registrationPage.validateRegistrationPageTitle());
+		AssertJUnit.assertTrue(registrationPage.validateRegistrationPageTitle());
 	}
 	
 	@Test(priority=0)
@@ -39,7 +41,7 @@ public class RegistrationPageTest extends TestBase {
 		ExtentLogsReport.info(test1, "Checking for PageHeader");
 		ExtentLogsReport.IExtentResult(test1, registrationPage.validateRegistrationPageHeader(), "checkRegistrationPageHeaderTest is passed", "checkRegistrationPageHeaderTest is filed", "checkRegistrationPageHeaderTest is skiped", driver, "YES", "YES");
 		ExtentLogsReport.info(test1, "PageHeader is completed");
-		Assert.assertTrue(registrationPage.validateRegistrationPageHeader());
+		AssertJUnit.assertTrue(registrationPage.validateRegistrationPageHeader());
 		}
 	
 	@Test(priority=0)

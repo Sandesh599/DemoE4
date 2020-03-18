@@ -3,7 +3,6 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-    
       <class name="com.jbk.Eproc.TestCases.A"/>
       <class name="com.jbk.Eproc.TestCases.LoginPageTest"/>
       <class name="com.jbk.Eproc.TestCases.RegistrationPageTest"/>
